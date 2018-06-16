@@ -19,11 +19,9 @@ import spencerstudios.com.respectableclevequotes.R;
 public class RvQuotesAdapter extends RecyclerView.Adapter<RvQuotesAdapter.ViewHolder> {
 
     private List<String> quotes;
-    /* add the following var and assign it a value of -1 */
     private int lastPosition = -1;
     private Context context;
 
-    /* pass context to the adapters constructor */
     public RvQuotesAdapter(List<String> quotes, Context context){
         this.quotes = quotes;
         this.context = context;
